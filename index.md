@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS 
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+		<!-- Bootswhatch -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/pulse/bootstrap.min.css">
+		<!-- Ma feuille de style -->
+		<link rel="stylesheet" href="styles.css">		
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+		<!-- font awesome -->
+		<script src="https://kit.fontawesome.com/f12af3db37.js" crossorigin="anonymous"></script>
+		<!-- Titre de la page -->
+		<title>JadeApp</title>
+	</head>
+ 	<!--Début de body --> 
+	<body class="">
+
+	<!-- Navbar -->
+
+	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+		<div class="d-flex flex-grow-1">
+			<span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+			<i class="fas fa-child d-inline display-4 text-secondary"></i>
+			<a class="navbar-brand d-inline" href="#"><span class="h1">JadeApp</span></a>
+			<div class="w-100 text-right">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+		</div>
+		<div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
+			<ul class="navbar-nav ml-auto flex-nowrap">
+				<li class="nav-item div.b">
+					<a href="#partenaires" class="nav-link">Mutuelles partenaires</a>
+				</li>
+				<li class="nav-item div.b">
+					<a href="#comment" class="nav-link">Comment ça marche ?</a>
+				</li>
+				<li class="nav-item div.b">
+					<a href="#services" class="nav-link">Fonctionnalités</a>
+				</li>
+				<li class="nav-item div.b">
+					<a href="https://play.google.com/store" target="_blank" class="nav-link">Obtenir l'app</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	
+	<!-- Introduction -->
+	<div>
+		<div class="container mt-5 mb-5">
+			<div class="row mt-5 mb-5">
+				<div class="col">
+				<img src="https://coorganiz.com/static/images/home_how_it_works_illustration.webp">
+				</div>
+				<div class="col mb-5">
+					<h1>La seule application pensée pour les jeunes aidants familiaux</h1>
+					<p>Conçue en partenariat avec l'association Jade et financée par une dizaine de mutuelles en France, la JadeApp soutient les jeunes qui apportent une aide régulière à un proche malade ou dépendant.</p>
+					<p><span class="font-weight-bold">Sas de décompression : </span> pour sortir de l'isolement et trouver une écoute bienveillante.</p>
+					<p><span class="font-weight-bold">Soutien scolaire : </span>pour garder le cap de la réussite scolaire, même en cas de coup dur.</p>
+					<p><span class="font-weight-bold">Plateforme de services  : </span>pour trouver des solutions pratiques lorsque le quotidien devient trop pesant.</p>
+					<button type="button" class="btn btn-primary btn-lg">Vérifier mon éligibilité</button>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Ils nous font confiance -->
+		<div id="partenaires" class="mb-5" style="background:rgba(220, 220, 220, 0.5);">
+			<div class="container d-flex justify-content-around">
+				<img src="https://progexia.fr/wp-content/uploads/2019/09/mgpa-1.png" class="d-inline" style="width:150px;">	
+				<img src="https://progexia.fr/wp-content/uploads/2019/09/mgpa-1.png" class="d-inline" style="width:150px;">
+				<img src="https://progexia.fr/wp-content/uploads/2019/09/mgpa-1.png" class="d-inline" style="width:150px;">	
+				<img src="https://progexia.fr/wp-content/uploads/2019/09/mgpa-1.png" class="d-inline" style="width:150px;">
+			</div>
+		</div>	
+	</div>
+
+
+	
+	<!-- Comment ça marche ? -->
+	<div id="comment" class="bs-component">
+		<div class="alert alert-dismissible alert-secondary">
+			<div class="container">
+				<div class="row mt-5 mb-5">
+					<div class="col">
+						<h2>Comment ça marche ?</h2>
+						<p>Financée par les fonds sociaux des mutuelles, la JadeApp est totalement gratuite pour ses bénéficiaires. Vérifiez votre élégibilité pour en bénéficier.</p>
+						<ol class="pl-3">
+							<li class="mb-3">
+							<span class="font-weight-bold">Choisissez votre mutuelle dans la liste :</span> parmi les 10 établissements partenaires.
+							</li>
+							<li class="mb-3">
+							<span class="font-weight-bold">Saisissez votre numéro d'adhérent :</span> pour vérifier votre élégibilité.
+							</li>
+							<li class="mb-3">
+							<span class="font-weight-bold">Vous êtes élégible ? </span> rendez-vous sur le store pour télécharger gratuitement l'application.
+							</li>
+						</ol>
+						<button type="button" class="btn btn-success btn-lg">C'est parti !</button>
+					</div>
+					<div class="col text-center">
+					<img src="https://coorganiz.com/static/images/for_carers_illustration_fr.png" class="w-75">
+					</div>			
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Services -->
+	<div id="services" class="container text-center">
+	<h2 class="text-center mt-5 mb-3">Un éventail de services pour les jeunes aidants</h2>
+	<p class="text-center mb-5">La JadeApp, c'est un formum de discussion entre jeunes aidants, un portail de conseils et d'informations unique pour apprendre à prendre soin de soi malgré la maladie ou le handicap d'un proche... mais pas seulement !</p>
+
+		<div class="card-deck text-center mb-5">
+			<div class="card border-0">
+				<i class="fas fa-phone-volume display-1 text-danger"></i>
+				<div class="card-body bs-component">
+				  <h3 class="card-title alert alert-dismissible alert-danger rounded-pill">Ecoute et orientation</h3>
+				  <p class="card-text">A tout moment, vous et votre enfant pouvez parler gratuitement à un conseiller qualifié à même de vous proposer une écoute bienveillante, des conseils et des informations utiles pour un soutien permanent.</p>
+				</div>
+			</div>
+			<div class="card border-0">
+				<i class="fas fa-laptop-medical display-1 text-success"></i>
+				<div class="card-body bs-component">
+				  <h3 class="card-title alert alert-dismissible alert-success rounded-pill">Prévention</h3>
+				  <p class="card-text">En cas de difficulté à vous déplacer, notre service de téléconsultation vous permet à votre enfant de consulter un médecin ou psychiatre par écrit, téléphone ou vidéo 24h/24 et 7j/7.</p>
+				</div>
+			</div>
+		</div>
+		
+		<button type="button" class="btn btn-primary btn-lg text-center mb-5 mt-5">Vérifier mon éligibilité</button>
+		
+		<div class="card-deck text-center mb-5">
+		<div class="card border-0">
+			<i class="fas fa-chalkboard-teacher display-1 text-info"></i>
+			<div class="card-body bs-component">
+			  <h3 class="card-title alert alert-dismissible alert-info rounded-pill">Scolarité</h3>
+			  <p class="card-text">Notre plateforme 365 en ligne permet à votre enfant d'accéder gratuitement et en illimité à de nombreuses ressources pédagogiques, des exercices et des quiz, pour maintenir le cap à l'école.</p>
+			</div>
+		</div>
+		<div class="card border-0">
+			<i class="fas fa-hands-helping display-1 text-primary"></i>
+			<div class="card-body bs-component">
+			  <h3 class="card-title alert alert-dismissible alert-primary rounded-pill">Répit</h3>
+			  <p class="card-text">Courses, ménage, petit bricolage... </br>Pour vous soulager, vous et votre enfant, du quotidien, faites appel à notre service de conciergerie en ligne.</p>
+			</div>
+		</div>
+	</div>	
+	
+	<button type="button" class="btn btn-success btn-lg text-center mb-5 mt-5">Vérifier mon éligibilité</button>
+	</div>	
+	
+	<!-- Footer -->
+		<div class="bs-component text-sm-left text-secondary mt-4">
+			<div class="bg-primary">
+				<div class="container p-3">
+					<div class="row">
+						<div class="col-sm">
+							<legend>JadeApp</legend>
+							<a href="#"><i class="fab fa-facebook-square display-4 text-secondary d-inline"></i></a>
+							<a href="#"><i class="fab fa-instagram-square display-4 text-secondary d-inline"></i></a>
+							<a href="#"><i class="fab fa-youtube-square display-4 text-secondary d-inline"></i></a>
+							<a href="#"><i class="fab fa-twitter-square display-4 text-secondary d-inline"></i></a>
+						</div>
+						<div class="col-sm">
+							<legend>Lien utiles</legend>	
+							<ul class="list-unstyled">
+								<li><a href="#" class="text-secondary">Mentions légales</a></li>
+								<li><a href="#" class="text-secondary">Politique de confidentialité</a></li>
+								<li><a href="#" class="text-secondary">FAQ</a></li>
+							</ul>
+						</div>
+						<div class="col-sm">
+							<legend>Recevoir la JadeLetter</legend>
+							<div class="form-group">
+								<label for="exampleInputEmail1">Saisissez votre adresse email</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="exemple@toto.com">
+								<small id="emailHelp" class="form-text text-secondary">Nous ne partagerons votre email avec personne.</small>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+</html>
+
